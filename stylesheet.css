@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+.container{
+    background: linear-gradient(rgb(213, 106, 161), rgb(48, 62, 143));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(62, 122, 199);
+    padding: 6px 26px;
+    font-size: 45px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.total{
+    width: 60%;
+    height: 65vh;
+    margin-top: 0px;
+}
+.total-detail{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    padding-bottom: 0px;
+    width: 100%;
+    margin: auto;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.degree-section{
+    width: 53%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+.degree-section span{
+    padding: 5px;
+}
+.temperature-details .Description-details .time-details{
+    display: inline;
+
+}
+.temperature-description{
+    font-size: 27px;
+}
+.temp{
+    display: inline-flex;
+    font-size:30px ;
+    justify-content: center;
+}
+.detail1, .detail2, .detail3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 20vh;
+     display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.detail1 , .detail2{
+    border-right: 2px solid white;
+}
+.location{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid white;
+}
+.location-timezone, .weather-icon{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+.temperature-details{
+    display: flex;
+}
+.time{
+    font-size: 13px;
+    font-weight: 300;
+    padding: 2px;
+    
+}
